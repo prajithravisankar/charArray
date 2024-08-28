@@ -20,7 +20,7 @@ int main() {
 
     // make it a bit more readable naming i as bigStringsEnd and j as littleStringsEnd
     for (int i = s1.size(), j = s2.size(); j > 0; j--, i--) {
-        if (s1[i] != s2[j]) {
+        if (s1[i] != s2[j]) { // equating this from back side
             cout << "NO";
             return 0;
         }
