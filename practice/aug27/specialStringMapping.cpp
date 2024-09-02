@@ -26,6 +26,9 @@ int main() {
     cin >> input;
 
     // this is my idea, there is another good idea using frequency array look at specialStringMappingSolution.cpp
+    // 65 - 90 = A to Z
+    // 97 - 122 = a to z
+    // 48 - 58 = 0 to 9
     for (int i = 0; i < input.size(); i++) {
         if ('A' <= input[i] && input[i] <= 'Z') {
             cout << input[i];
